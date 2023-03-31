@@ -18,10 +18,16 @@ app.get("/articles",function(req,res){
     Article.find({}).then(function(articles){
         res.send(articles);
     }).catch(function(err){
-        console.log(err);
+        res.send(err);
     });
 });
-
+app.post("/articles",function(req,res){
+const newArticle=new Article({
+    title:req.body.title,
+    content:req.body.content
+});
+newArticle.save();
+});
 
 app.listen(3000,function(){
     console.log("Server running on port 3000");
