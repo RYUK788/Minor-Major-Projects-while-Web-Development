@@ -1,0 +1,16 @@
+{
+  "name": "weather",
+  "version": "14.21.1",
+  "description": "A simple Weather App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anand",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}

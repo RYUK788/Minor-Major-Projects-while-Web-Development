@@ -1,0 +1,14 @@
+{
+  "name": "express-with-node",
+  "version": "14.21.1",
+  "description": "express with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

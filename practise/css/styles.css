@@ -1,0 +1,19 @@
+/*tags*/
+body{
+  background-color: yellow;
+}
+h1{
+  color:red;
+  font-size:50px;
+}
+img:hover{
+background-color:gold;  
+}
+/*class*/
+.emojis{
+  background-color:red;
+}
+/*IDS*/
+#heading{
+  color:green;
+}
