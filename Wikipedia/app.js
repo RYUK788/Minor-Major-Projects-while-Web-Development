@@ -86,6 +86,15 @@ app.route("/articles")
         }
     })
 
+    .delete(async function(req,res){
+        try {
+            await Article.deleteOne({title:req.params.articleTitle});
+            res.send("sucessfully  deleted the corresponding article");
+        } catch (error) {
+            res.send(error.message);
+        }
+    })
+
 app.listen(3000,function(){
     console.log("Server running on port 3000");
 });
