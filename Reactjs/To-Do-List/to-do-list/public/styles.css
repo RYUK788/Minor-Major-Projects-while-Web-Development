@@ -1,0 +1,90 @@
+body {
+  background-color: #87C4FF;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: "Kanit", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #F1EAFF;
+  background-image: radial-gradient(#87C4FF 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  font-family: "Architects Daughter", cursive;
+  background-color: #39A7FF;
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #0174BE;
+  font-family: "Kanit";
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+
+
+.btn {
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  -webkit-box-shadow: 0px 1px 3px #3ee6d0;
+  -moz-box-shadow: 0px 1px 3px #3ee6d0;
+  box-shadow: 0px 1px 3px #3ee6d0;
+  font-family: "Kanit";
+  color: #e6e6e6;
+  font-size: 16px;
+  background: #3497d9;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f318c 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3cbf;
+  background-image: -webkit-linear-gradient(top, #fc3cbf, #eb9f9f);
+  background-image: -moz-linear-gradient(top, #fc3cbf, #eb9f9f);
+  background-image: -ms-linear-gradient(top, #fc3cbf, #eb9f9f);
+  background-image: -o-linear-gradient(top, #fc3cbf, #eb9f9f);
+  background-image: linear-gradient(to bottom, #fc3cbf, #eb9f9f);
+  text-decoration: none;
+}
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
